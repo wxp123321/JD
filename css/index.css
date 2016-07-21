@@ -1,0 +1,207 @@
+@charset "UTF-8";
+.banner604
+{
+	position: relative;
+
+}
+.banner604 a
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:604px;
+	background: url(../images/banner.jpg) no-repeat top center;
+}
+.main
+{
+	position:relative;
+}
+.silder
+{
+	width:730px;
+	height:453px;
+	background-color: red;
+	margin: 12px 0 0 220px;
+	float:left;
+	position:relative;
+}
+.circle
+{
+	position: absolute;
+	bottom: 8px;
+	left:50%;
+	margin-left:-66px;
+}
+.circle li
+{
+	border-radius: 50%;
+	background-color:#3E3E3E;
+	float:left;
+	text-align:center;
+	line-height:18px;
+	color:#fff;
+	margin:0 2px;
+	width:18px;
+	height:18px;
+	cursor: pointer;
+}
+.circle .current
+{
+	background-color: #B61B1F;
+}
+.arrow
+{
+	display: none;
+}
+.arrow-l,
+.arrow-r
+{
+	width:28px;
+	height:62px;
+	position: absolute;
+	top: 50%;
+	margin-top:-31px;
+	color: #fff;
+	font: 500 18px/62px "宋体";
+	text-align: center;
+	background-color:pink;
+	background: rgba(0,0,0,.2);
+}
+.arrow-l
+{
+ left:0;
+}
+.arrow-r
+{
+	right:0;
+}
+.arrow-l:hover,
+.arrow-r:hover
+{
+	background: rgba(0,0,0,.4);
+	color:#fff;
+}
+.news
+{
+	float:right;
+	margin-top:12px;
+	border: 1px solid #E4E4E4;
+	height:451px;
+	width:248px;
+}
+.jd-news 
+{
+	height:200px;
+	border-bottom: 1px dashed #E4E4E4;
+}
+.jd-news .dt,
+.lifeservi .dt
+{
+	height:43px;
+	border-bottom:1px dotted #E8E8E7;
+	line-height:43px;
+}
+.jd-news .dt h3,
+.lifeservi .dt h3
+{
+	float: left;
+	font: 14px/43px "微软雅黑";
+	color: #666;
+	padding-left:15px;
+}
+.jd-news .dd ul
+{
+	padding: 8px 0 0 15px;
+}
+.jd-news .dd li
+{
+	line-height: 28px;
+}
+.jd-news .dd  span
+{
+	font-weight: 700;
+	margin-right: 5px;
+}
+.jd-news .dt a
+{
+	float: right;
+	font: 13px/43px "宋体";
+	margin-right:15px;
+}
+.lifeservi
+{
+	height: 251px;
+	width: 248px;
+	overflow: hidden;
+}
+.lifeservi ul
+{
+	width: 252px;
+}
+.lifeservi .dd li
+{
+	width: 62px;
+	height: 70px;
+	border: 1px solid #E4E4E4;
+	border-top:0;
+	float: left;
+	margin-left: -1px;
+}
+.lifeservi a
+{
+	display: block;
+	height: 70px;
+	text-align:center;
+    padding-top: 44px;
+    position: relative;
+}
+.lifeservi li i
+{
+	position: absolute;
+	top: 12px;
+	left:18px;
+	width:25px;
+	height: 25px;
+	background: url(../images/spriteicon.png) no-repeat right top;
+}
+.todays
+{
+	position: relative;
+}
+.night
+{
+	margin:10px 0 28px 0; 
+}
+.night-l
+{
+	float: left;
+}
+.night-r
+{
+	width:1000px;
+	height: 160px;
+	float: right;
+}
+.night-r ul
+{
+	width: 500%;
+	margin-top: -19px;
+}
+.night-r li
+{
+	float: left;
+	margin-right: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
